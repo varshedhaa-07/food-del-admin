@@ -1,0 +1,34 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 4%;
+  background-color: black;
+  color: orange;
+}
+
+.navbar a{
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: orange;
+  transition: transform 0.3s ease,color 0.3s ease;
+}
+
+.logo:hover {
+  color: rgb(221, 148, 37);
+  text-shadow: 0 0 25px rgb(221, 148, 37),
+               0 0 50px rgb(221, 148, 37);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.navbar .profile{
+  font-size: 30px; /* Adjust icon size */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.profile:hover {
+  color: white;
+}
