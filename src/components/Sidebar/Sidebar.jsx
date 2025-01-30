@@ -16,10 +16,10 @@ const Sidebar = () => {
           <BiSolidFoodMenu />
           <p>List Items</p>
         </NavLink>
-        <NavLink to='/orders' className="sidebar-option">
+        {/* <NavLink to='/orders' className="sidebar-option">
           <BiSolidFoodMenu />
           <p>Orders</p>
-        </NavLink>
+        </NavLink> */}
       </div>
       
     </div>
